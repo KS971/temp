@@ -1,11 +1,3 @@
-"""
-1. 모든 문제에 대해 방심하지 않는다.
-2. 제한 시간 내에 해결할 수 있는 방법을 생각한다.
-3. 주어진 변수의 범위를 확인한다.
-4. 범위의 최소값과 최대값에 대한 반례를 찾는다.
-5. 문제를 풀기 전에 전략을 수립한다.
-6. 예제에 모든 반례가 포함된 것은 아니다.
-"""
 from collections import deque
 
 n, m = 6, 5
@@ -48,5 +40,3 @@ for i in range(n):
         mx = max(mx, area)
 
 print(num); print(mx)
-
-# author : dolphin
